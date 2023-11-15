@@ -1,0 +1,61 @@
+
+:root {
+    --tenne-tawmy: #d9d3cf;
+    --tenne-tawmy-dark: #2be2c0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--tenne-tawmy);
+
+
+}
+.heading {
+    margin: 50px auto 20px;
+}
+.heading h1 {
+    font-size: 60px;
+    color: beige;
+}
+.row {
+    margin-top: 70px;
+}
+.box{
+    background-color: white;
+    padding: 10px 30px;
+    text-align: justify;
+    /* text-indent: 50px; */
+    border-radius: 30px;
+    box-shadow: 9px -5px 10px ;
+}
+.box span{
+    font-size: 150px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box p {
+    text-indent: 50px;
+}
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade.show {
+    opacity: 1;
+  }
+  
+button {
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    /* padding: 0 30px; */
+    width: 50%;
+    background-color: var(--tenne-tawmy-dark);
+    color: white;
+}
+button:hover {
+    background-color: yellowgreen;
+}
